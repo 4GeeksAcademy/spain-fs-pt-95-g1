@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import '../index.css';
 import { useNavigate } from 'react-router-dom';
 
-
 const Recommendations = ({ genres, currentAnimeId }) => {
     const [recommendedAnimes, setRecommendedAnimes] = useState([]);
     const [loading, setLoading] = useState(true);

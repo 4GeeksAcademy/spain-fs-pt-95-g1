@@ -3,7 +3,6 @@ from sqlalchemy import String, Boolean, Integer, Text, ForeignKey, Float, func, 
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from typing import List
 
-
 # Inicializar la DB
 db = SQLAlchemy()
 

@@ -13,6 +13,7 @@ function AnimeCard() {
     const [likes, setLikes] = useState(0);
     const [hasLiked, setHasLiked] = useState(false);
     const API_URL = import.meta.env.VITE_API_URL;
+    
     useEffect(() => {
         const fetchAnimeDetails = async () => {
             setLoading(true);

@@ -12,7 +12,6 @@ api = Blueprint('api', __name__)
 # Permite todas las origenes en desarrollo
 # La configuración de CORS se realizará en app.py
 
-# Rate limiting for Jikan API (60 requests per minute)
 
 
 def wait_for_rate_limit():
