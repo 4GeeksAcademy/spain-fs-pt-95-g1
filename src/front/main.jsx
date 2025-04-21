@@ -8,7 +8,7 @@ import { BackendURL } from './components/BackendURL';
 import { UserContextProvider } from './context/UserContext';
 
 const Main = () => {
-    console.log("Valor de VITE_BACKEND_URL:", import.meta.env.VITE_BACKEND_URL); // Añade esta línea aquí
+    console.log("Valor de VITE_BACKEND_URL:", import.meta.env.VITE_BACKEND_URL); 
 
     if(! import.meta.env.VITE_BACKEND_URL ||  import.meta.env.VITE_BACKEND_URL == '') return (
         <React.StrictMode>
@@ -26,7 +26,7 @@ const Main = () => {
             </StoreProvider>
             </UserContextProvider>
         </React.StrictMode>
-    );
+    )
 }
 // Render the Main component into the root DOM element.
 ReactDOM.createRoot(document.getElementById('root')).render(<Main /> )
